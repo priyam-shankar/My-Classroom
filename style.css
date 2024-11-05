@@ -1,0 +1,73 @@
+
+*{
+    font-family: 'Times New Roman';
+}
+*{
+    color:black;
+}
+h1{
+    color:black;    
+}
+button{
+    color:brown;
+}
+#headingOne{
+    color:black;
+}
+#headingTwo{
+    color:red;
+}
+.myClass{
+    color:purple;
+}
+#box{
+    background-color: darkblue;
+}
+
+    .heading{
+        color:red;
+    }              
+     
+ 
+#point{
+    color:green;
+}
+#ps{
+    text-align: center;
+}
+#one{
+    font size: 10px;
+    line-height: 30px;
+    text-transform:capitalize;
+}
+#two{
+    font size: 15px;
+}
+#three{
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+h1{
+    height: 70px;
+    width: auto;
+    background-color: aquamarine;
+   /* border-width: thick;
+    border-style: double;
+    border-color: black;*/
+    border:thick double black;
+}
+div{
+    border:thick black;
+    border-radius: 10px;
+   padding: 1px 2px 3px 4px;
+}

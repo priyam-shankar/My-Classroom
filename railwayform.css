@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+header {
+    background-color: #003366;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    background-image: url("reis headder.jpg");
+    background-size: cover;
+}
+
+nav ul {   
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin: 20px;
+}
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #003366;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-left: 100px;
+}
+.login {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin-top: 50px;
+    text-align: center;
+}
+.login h2 {
+    margin-top: 0;
+}
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+.login input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+.login button {
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login button:hover {
+    background-color: #003366;
+}
+footer {
+    background-color: #003366;
+    color: white;
+    
+    text-align: center;
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+}
+/* .external-links a {
+    color: red;
+    margin: 0 10px;
+    text-decoration: none;
+} */
+/* .external-links a:hover {
+    text-decoration: underline;
+} */
+/* .info {
+    margin-top: 10px;
+} */
+main {
+    display: flex;
+    height: 50%;
+    align-items: flex-start;
+}
+.externallink {
+   position: fixed;
+   bottom: 140px;
+    margin-left: 40%;
+    color: red;
+    font-size: larger;
+    /* margin-top: 2rem; */
+}
+.links {  
+   
+    display: flex;
+    justify-content: space-around;
+    bottom: 10px;
+    background-color: rgb(151, 219, 221);
+    /* padding-top: 30px; */
+    margin-top: 2rem;
+ }
+/* .links {
+    display: flex;
+    justify-content: space-around;
+} */

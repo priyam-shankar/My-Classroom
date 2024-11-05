@@ -1,0 +1,52 @@
+/* #box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+#box2{
+    height: 100vh;
+    width: 30%;
+    background-color: yellow;
+    font-size: 2em;
+    width: 5em;
+    width: 5rem;
+    width: 100vw;
+
+}  */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+/* #box1{
+
+    position: static;
+    top: 20px;
+    left: 40px;
+}
+
+#box2{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    
+}
+#box3{
+    position: sticky;
+    left: 20px;
+    top:10px;
+}
+#box4{
+    position: fixed;
+    top: 10px;
+} */
+
+#box1{
+     background-image: url("cat_image.jpg");        /* also without double cords */
+    background-size: cover;
+}

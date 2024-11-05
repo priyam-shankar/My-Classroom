@@ -1,0 +1,28 @@
+#outer{
+    /* padding: auto;
+    margin: auto; */
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: rgb(42, 47, 49);
+    
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(235, 234, 234);
+    margin: 9px;
+    border-radius: 50%;
+}
+#red{
+background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+body{
+    background-color: rgb(162, 191, 202);
+}
